@@ -1,0 +1,28 @@
+.universal-padding {
+    padding-top: 20px;
+}
+.report-component-padding {
+    padding-top: 110px;
+}
+.report-details-component-padding {
+    padding-top: 220px;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #337ab7;
+    border-radius: 10px;
+}
+
+.list-group-item>.badge {
+    float: right;
+}
