@@ -1,6 +1,6 @@
 import { ADD_REPORT } from '../actions/index'
 
-const INITIAL_STATE = [];
+const INITIAL_STATE = [{ campaignId: null, id: null, title: null }];
 
 export default function (state = INITIAL_STATE, action) {
   switch (action.type) {
