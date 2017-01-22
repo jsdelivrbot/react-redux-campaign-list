@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 class ReportDetails extends Component {
+
   render() {
     if (!this.props.report.id) {
       return (
@@ -12,7 +13,7 @@ class ReportDetails extends Component {
     return (
       <div className="universal-padding">
         <h5>
-          Details
+          Details.
         </h5>
         <div className="list-group universal-padding">
           <div className="list-group-item">Tilte: {this.props.report.title} </div>

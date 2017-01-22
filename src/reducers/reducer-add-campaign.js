@@ -1,4 +1,5 @@
 import { ADD_CAMPAIGN } from '../actions/index'
+
 const INITIAL_STATE = { id: null, title: null };
 
 export default function (state = INITIAL_STATE, action) {

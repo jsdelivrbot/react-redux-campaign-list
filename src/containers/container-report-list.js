@@ -17,7 +17,6 @@ class CampaignDetail extends Component {
         return report.campaignId == this.props.activeCampaign.id
       }
     );
-
   }
 
   renderReports() {
@@ -47,7 +46,8 @@ class CampaignDetail extends Component {
         <AddReport />
         <div className="universal-padding">
           <h5>
-            Campaign "{this.props.activeCampaign.title}" has {this.filterReports().length}.
+            Campaign "{this.props.activeCampaign.title}" has {this.filterReports().length}
+            Report(s).
           </h5>
 
           <div className="list-group universal-padding">
